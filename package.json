@@ -1,5 +1,5 @@
 {
-	"name": "m-type",
+	"name": "easy-typer",
 	"version": "0.0.1",
 	"description": "ts 的类型助手",
 	"main": "./dist/index.cjs",
