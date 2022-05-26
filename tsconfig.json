@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"declaration": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node"
+	},
+	"include": ["src/**.ts"],
+	"exclude": ["node_modules", "dist"]
+}

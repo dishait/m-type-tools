@@ -1,0 +1,41 @@
+{
+	"name": "m-type",
+	"version": "0.0.0",
+	"description": "ts 的类型助手",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.mjs",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "unbuild",
+		"prepublishOnly": "npm run build",
+		"release": "bumpp --commit --push --tag && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/markthree/m-type.git"
+	},
+	"keywords": [
+		"types",
+		"typescript"
+	],
+	"devDependencies": {
+		"bumpp": "^7.1.1",
+		"unbuild": "^0.7.4"
+	},
+	"author": {
+		"name": "markthree",
+		"email": "1801982702@qq.com",
+		"url": "https://github.com/markthree"
+	},
+	"license": "MIT"
+}
