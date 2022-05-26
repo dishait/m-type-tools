@@ -31,3 +31,7 @@ export type UnPromise<T> = T extends Promise<infer P>
 
 export type UnPromiseReturnType<T extends AnyFunction> =
 	UnPromise<ReturnType<T>>
+
+export type UnAsyncFunctionReturnType<
+	T extends AnyAsyncFunction
+> = UnPromise<ReturnType<T>>
