@@ -1,4 +1,4 @@
-# m-type
+# m-type-tools
 
 通用 `ts` 的类型工具
 
@@ -10,7 +10,7 @@
 ### 安装
 
 ```shell
-pnpm i m-type
+pnpm i m-type-tools
 ```
 
 <br />
@@ -18,7 +18,7 @@ pnpm i m-type
 ### 类型判断
 
 ```ts
-import { isString } from 'm-type'
+import { isString } from 'm-type-tools'
 
 isString('foo') // true
 
@@ -36,7 +36,7 @@ if (isString(bar)) {
 ### 获取类型
 
 ```ts
-import type { UnArray } from 'm-type'
+import type { UnArray } from 'm-type-tools'
 
 type Foo = UnArray<number[]> // number
 
