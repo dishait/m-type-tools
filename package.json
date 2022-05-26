@@ -1,6 +1,6 @@
 {
 	"name": "m-type",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "ts 的类型助手",
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.mjs",
