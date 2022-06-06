@@ -1,4 +1,4 @@
-import { AnyAsyncFunction } from './type'
+import type { AnyAsyncFunction } from './function'
 
 export const isSymobl = (v: unknown): v is symbol => {
 	return typeof v === 'symbol'
