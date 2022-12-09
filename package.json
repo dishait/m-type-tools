@@ -29,6 +29,7 @@
 		"typescript"
 	],
 	"devDependencies": {
+		"@types/node": "^18.11.12",
 		"bumpp": "^7.1.1",
 		"unbuild": "^0.7.4"
 	},
