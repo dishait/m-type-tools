@@ -5,7 +5,7 @@ export default defineBuildConfig({
 	entries: [
 		{
 			name: 'index',
-			input: 'mod.ts'
+			input: 'src/mod.ts'
 		}
 	],
 	rollup: {
