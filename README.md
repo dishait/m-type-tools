@@ -4,7 +4,6 @@
 
 <br />
 
-
 ## 使用
 
 ### 安装
@@ -27,7 +26,7 @@ isString(1) // false
 let bar: any = 'bar'
 
 if (isString(bar)) {
-    bar.toLowerCase() // 类型正确的
+	bar.toLowerCase() // 类型正确的
 }
 ```
 
@@ -48,6 +47,15 @@ type Bar = UnArray<string[]> // string
 <br />
 <br />
 
+## `Deno` 支持
+
+```ts
+import { isString } from 'https://deno.land/x/mtype/mod.ts'
+```
+
+<br />
+<br />
+
 ## 组织 🦔
 
 欢迎关注 **帝莎编程**
@@ -56,7 +64,6 @@ type Bar = UnArray<string[]> // string
 - [Gitee](https://gitee.com/dishait)
 - [Github](https://github.com/dishait)
 - [网易云课堂](https://study.163.com/provider/480000001892585/index.htm?share=2&shareId=480000001892585)
-
 
 <br />
 <br />
