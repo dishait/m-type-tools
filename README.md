@@ -50,7 +50,7 @@ type Bar = UnArray<string[]> // string
 ## `Deno` 支持
 
 ```ts
-import { isString } from 'https://deno.land/x/mtype/mod.ts'
+import { isString } from 'https://deno.land/x/mtype@v0.2.7/mod.ts'
 ```
 
 <br />
