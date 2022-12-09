@@ -6,6 +6,6 @@
 		"resolveJsonModule": true,
 		"moduleResolution": "node"
 	},
-	"include": ["src/**.ts"],
+	"include": ["src/**.ts", "mod.ts", "mod.ts"],
 	"exclude": ["node_modules", "dist"]
 }
