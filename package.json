@@ -1,6 +1,6 @@
 {
 	"name": "m-type-tools",
-	"version": "0.2.6",
+	"version": "0.2.7",
 	"description": "ts 的类型助手",
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.mjs",
