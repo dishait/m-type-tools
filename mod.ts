@@ -1,7 +1,7 @@
 // 支持 deno
 
-export * from './deno/is.ts'
-export * from './deno/un.ts'
-export * from './deno/pick.ts'
-export * from './deno/array.ts'
-export * from './deno/function.ts'
+export * from './deps/is.ts'
+export * from './deps/un.ts'
+export * from './deps/pick.ts'
+export * from './deps/array.ts'
+export * from './deps/function.ts'

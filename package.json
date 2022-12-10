@@ -16,7 +16,8 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "unbuild",
+		"build:deno": "udeno",
+		"build": "unbuild && udeno",
 		"prepublishOnly": "npm run build",
 		"release": "bumpp --commit --push --tag && npm publish"
 	},
@@ -30,8 +31,10 @@
 	],
 	"devDependencies": {
 		"@types/node": "^18.11.12",
-		"bumpp": "^7.1.1",
-		"unbuild": "^0.7.4"
+		"bumpp": "^7.2.0",
+		"cpy": "^9.0.1",
+		"udeno": "^0.2.1",
+		"unbuild": "^0.7.6"
 	},
 	"author": {
 		"name": "markthree",

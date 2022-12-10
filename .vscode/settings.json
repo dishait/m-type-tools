@@ -1,4 +1,7 @@
 {
-	"deno.enable": true,
-	"deno.enablePaths": ["./mod", "./deno"]
+  "deno.enable": true,
+  "deno.enablePaths": [
+    "mod.ts",
+    "deps"
+  ]
 }
