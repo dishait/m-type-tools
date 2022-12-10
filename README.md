@@ -49,8 +49,10 @@ type Bar = UnArray<string[]> // string
 
 ## `Deno` 支持
 
+由 [udeno](https://github.com/dishait/udeno) 提供开箱支持
+
 ```ts
-import { isString } from 'https://deno.land/x/mtype@v0.2.7/mod.ts'
+import { isString } from 'https://deno.land/x/mtype@v0.2.9/mod.ts'
 ```
 
 <br />
