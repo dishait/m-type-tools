@@ -4,14 +4,14 @@ specifiers:
   '@types/node': ^18.11.12
   bumpp: ^7.2.0
   cpy: ^9.0.1
-  udeno: ^0.2.1
+  udeno: ^0.2.8
   unbuild: ^0.7.6
 
 devDependencies:
   '@types/node': 18.11.12
   bumpp: 7.2.0
   cpy: 9.0.1
-  udeno: 0.2.1
+  udeno: 0.2.8
   unbuild: 0.7.6
 
 packages:
@@ -544,6 +544,10 @@ packages:
 
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    dev: true
+
+  /colorette/2.0.19:
+    resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
     dev: true
 
   /command-line-args/5.2.1:
@@ -1520,16 +1524,18 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /udeno/0.2.1:
-    resolution: {integrity: sha512-bpPDiJ0g/E7b/qZeDYpoGig4Muca15ZOKnqwEK3Ie+9WCCucLREXG2f7uIiZvfOst0xag4rLfFr2SGWDf3t4KA==}
+  /udeno/0.2.8:
+    resolution: {integrity: sha512-B3FTeiVDBbIQoC57jEerD6O7v9XPGteV/m347dggirrOncML2T1Zo4kIiS/m7e3leMIpKU0KS7U1HfXAwWOe0w==}
     hasBin: true
     dependencies:
+      colorette: 2.0.19
       consola: 2.15.3
       defu: 6.1.1
       destr: 1.2.2
       fast-glob: 3.2.12
       local-pkg: 0.4.2
       mlly: 1.0.0
+      mri: 1.2.0
     dev: true
 
   /ufo/1.0.1:
