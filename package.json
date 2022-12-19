@@ -1,6 +1,6 @@
 {
 	"name": "m-type-tools",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "ts 的类型助手",
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.mjs",
@@ -16,10 +16,10 @@
 		"dist"
 	],
 	"scripts": {
+		"build": "unbuild",
 		"build:deno": "udeno",
-		"build": "unbuild && udeno",
 		"prepublishOnly": "npm run build",
-		"release": "bumpp --commit --push --tag && npm publish"
+		"release": "bumpp --execute udeno --commit --push --tag && npm publish"
 	},
 	"repository": {
 		"type": "git",
