@@ -5,7 +5,7 @@ export type ItemExist<V, A = []> = A extends [
 	? V extends F
 		? V
 		: ItemExist<V, P>
-	: V
+	: never
 
 export type ItemNotExist<V, A = []> = A extends [
 	infer F,
