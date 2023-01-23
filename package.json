@@ -19,7 +19,7 @@
 		"build": "unbuild",
 		"build:deno": "udeno",
 		"prepublishOnly": "npm run build",
-		"release": "bumpp --commit --push --tag && npm publish"
+		"release": "pnpm build:deno && bumpp --commit --push --tag --all && npm publish"
 	},
 	"repository": {
 		"type": "git",
