@@ -1,45 +1,44 @@
 {
-	"name": "m-type-tools",
-	"version": "0.4.0",
-	"description": "ts 的类型助手",
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.mjs",
-	"types": "./dist/index.d.ts",
-	"exports": {
-		".": {
-			"require": "./dist/index.cjs",
-			"import": "./dist/index.mjs",
-			"types": "./dist/index.d.ts"
-		}
-	},
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "unbuild",
-		"build:deno": "udeno",
-		"prepublishOnly": "npm run build",
-		"release": "pnpm build:deno && bumpp --commit --push --tag --all && npm publish"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/markthree/m-type-tools.git"
-	},
-	"keywords": [
-		"types",
-		"typescript"
-	],
-	"devDependencies": {
-		"@types/node": "^18.11.12",
-		"bumpp": "^7.2.0",
-		"cpy": "^9.0.1",
-		"udeno": "^0.2.8",
-		"unbuild": "^0.7.6"
-	},
-	"author": {
-		"name": "markthree",
-		"email": "1801982702@qq.com",
-		"url": "https://github.com/markthree"
-	},
-	"license": "MIT"
+  "name": "m-type-tools",
+  "version": "0.4.0",
+  "description": "ts 的类型助手",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "build:deno": "udeno",
+    "prepublishOnly": "npm run build",
+    "release": "pnpm build:deno && bumpp --commit --push --tag --all && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markthree/m-type-tools.git"
+  },
+  "keywords": [
+    "types",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "bumpp": "^9.1.0",
+    "udeno": "^0.3.6",
+    "unbuild": "^1.2.0"
+  },
+  "author": {
+    "name": "markthree",
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree"
+  },
+  "license": "MIT"
 }
