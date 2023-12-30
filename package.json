@@ -30,10 +30,10 @@
     "typescript"
   ],
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "bumpp": "^9.1.0",
+    "@types/node": "^18.19.4",
+    "bumpp": "^9.2.1",
     "udeno": "^0.3.6",
-    "unbuild": "^1.2.0"
+    "unbuild": "^2.0.0"
   },
   "author": {
     "name": "markthree",
