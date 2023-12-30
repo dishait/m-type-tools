@@ -61,3 +61,7 @@ export const isWeakMap = (
 export const isPromise = (v: unknown): v is Promise<any> => {
   return v instanceof Promise;
 };
+
+export const isUndefined = (v: undefined): v is undefined => {
+  return typeof v === "undefined";
+};
